@@ -7,7 +7,10 @@
         "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/Week%209%20HW/js/ne_110m_admin_0_countries.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
-  "projection": {"type": "equalEarth"},
+  "projection": {
+    "type": "equalEarth",
+    "clipExtent": [[0, 0], [800, 380]]
+  },
   "layer": [
     {
       "transform": [
@@ -21,10 +24,17 @@
     },
     {
       "data": {
+        "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/Week%209%20HW/js/oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightskyblue"}
+    },
+    {
+      "data": {
         "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/Week%209%20HW/js/ne_110m_graticules_30.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
       },
-      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+      "mark": {"type": "geoshape", "fill": null, "stroke": "white"}
     },
     {
       "transform": [
@@ -36,7 +46,8 @@
             },
             "key": "country_name",
             "fields": ["percentage_energy_sufficient_unafford", "cost_energy_sufficient"]
-          }
+          },
+          "default": 0
         },
         {"calculate": "datum.cost_energy_sufficient + 0.1", "as": "Cost Energy Efficient"}
       ],  
