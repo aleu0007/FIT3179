@@ -1,4 +1,4 @@
-country_code,country_name,cost_energy_sufficient,cost_nutrient_adequate,cost_healthy,cost_fruit,cost_veg,cost_starchy_staples,cost_animal_source_foods,cost_legumes_nuts_seeds,cost_oils_and_fats,percentage_energy_sufficient_unafford,percentage_nutrient_adequate_unafford,percentage_healthy_unafford,CoCA_unafford_n,CoNA_unafford_n,CoRD_unafford_n,gdp
+country_code,country_name,cost_energy_sufficient_n,cost_nutrient_adequate,cost_healthy,cost_fruit,cost_veg,cost_starchy_staples,cost_animal_source_foods,cost_legumes_nuts_seeds,cost_oils_and_fats,percentage_energy_sufficient_unafford,percentage_nutrient_adequate_unafford,percentage_healthy_unafford,CoCA_unafford_n,CoNA_unafford_n,CoRD_unafford_n,gdp
 AGO,Angola,1.4,3.23,4.33,0.72,1.2,0.84,1.01,0.4,0.17,57.2,87.1,92.9,17,26,27.7,7310.897
 ALB,Albania,0.73,2.47,3.95,0.91,0.71,0.6,1.2,0.44,0.09,0,13,37.8,0,0.4,1.1,12770.96
 ARE,United Arab Emirates,0.75,1.81,2.76,0.56,0.53,0.39,0.86,0.27,0.15,0,0,0,0,0,0,67183.61
