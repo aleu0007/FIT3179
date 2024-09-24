@@ -4,7 +4,7 @@
   "height": 450,
   "title": "Global Energy Sufficient Meal Affordability (2017)",
   "data": {
-        "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/Week%209%20HW/js/ne_110m_admin_0_countries.topojson",
+        "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/js/ne_110m_admin_0_countries.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
   "projection": {
@@ -24,14 +24,14 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/Week%209%20HW/js/oceans.topojson",
+        "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/js/oceans.topojson",
         "format": {"type": "topojson", "feature": "oceans"}
       },
       "mark": {"type": "geoshape", "fill": "lightskyblue"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/Week%209%20HW/js/ne_110m_graticules_30.topojson",
+        "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/js/ne_110m_graticules_30.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
       },
       "mark": {"type": "geoshape", "fill": null, "stroke": "white"}
@@ -42,7 +42,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "data/goal02_affordability.csv"
+              "url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/data/goal02_affordability.csv"
             },
             "key": "country",
             "fields": ["CoCA", "CoNA", "CoRD", "CoRD_f", "CoRD_v", "CoRD_ss", "CoRD_asf", "CoRD_lns", "CoRD_of", "CoCA_headcount", "CoNA_headcount", "CoRD_headcount", "CoCA_unafford_n", "CoNA_unafford_n", "CoRD_unafford_n","gdp"]
