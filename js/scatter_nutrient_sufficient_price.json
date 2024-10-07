@@ -177,7 +177,7 @@
 				}
 			},
 		"y": {
-			"field": "CoRD", 
+			"field": "CoNA", 
 			"type": "quantitative"
 		}
 	},
