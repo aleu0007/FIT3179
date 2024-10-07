@@ -12,25 +12,38 @@
 
 </head>
 <body>
-  <div class="w-container">
+  <div class="header-container">
     <h1>Test heading</h1>
     <h2>Test h2 heading</h2>
     <p>Test paragraph</p>
-  </div>"
+  </div>
 
-<!-- <div id="choropleth_map"> -->
-<div id="scatter_healthy_meal_price"></div>
+  
 
+  <div class="content-container">
+    <div class="navbar">
+      <div onclick="changeContent('section1')"><p>Energy Sufficient</p></div>
+      <div onclick="changeContent('section2')"><p>Nutrient Sufficient</p></div>
+      <div onclick="changeContent('section3')"><p>Healthy</p></div>
+    </div>
+
+    <div class="dynamic-content-container">
+      <div id="content-title" class="content-title"></div>
+      <div id="dynamic-chart"></div>  
+      <div id="content-text" class="content-text"></div>
+    </div>
+
+    <div id="choropleth_map" class="idiom"></div>
+  </div>
+  
+  <script src="js/navbar.js"></script>
   <script type="text/javascript">
     var vg_1 = "js/map_with_graticules.json";
     vegaEmbed('#choropleth_map', vg_1).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var vg_2 = "js/scatter_healthy_meal_price.json";
-    vegaEmbed('#scatter_healthy_meal_price', vg_2).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+    changeContent('section1'); // default section
   </script>
 
 </body>
