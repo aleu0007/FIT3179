@@ -1,7 +1,5 @@
 {
 	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-	"width": 600,
-	"height": 300,
 	"transform": [
     {
       "lookup": "country",
@@ -158,43 +156,66 @@
     }
   ],
 	"data": {"url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/data/goal02_affordability.csv"},
-	"mark": "point",
-	"encoding": {
-		"opacity": {
-			"condition": {
-				"test": "test(regexp(search_input,'i'),datum.country)",
-				"value": 0.8
-			},
-			"value": 0.1
-		},
-		"tooltip": {"field": "country", "type": "nominal"},
-		"x": {
-			"field": "gdp", 
-			"type": "quantitative", 
-			"scale": {
-				"type": "log",
-				"domain": [700, 120000]
+	"vconcat": [
+		{
+			"encoding": {
+				"tooltip": {"field": "country", "type": "nominal"},
+					"x": {
+						"field": "gdp", 
+						"type": "quantitative", 
+						"scale": {
+							"type": "log",
+							"domain": [700, 120000]
+							}
+						},
+					"y": {
+						"field": "CoCA", 
+						"type": "quantitative"
+					},
+				"color": {
+					"condition": {
+						"param": "brush",
+						"field": "continent",
+						"title": "testing",
+						"type": "nominal",
+						"scale": {
+							"domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America"]
+						}
+					},
+					"value": "lightgray"
 				}
 			},
-		"y": {
-			"field": "CoCA", 
-			"type": "quantitative"
+			"width": 600,
+			"height": 300,
+			"mark": "point",
+			"params": [{
+				"name": "brush",
+				"select": {"type": "interval", "encodings": ["x"]}
+			}],
+			"transform": [{"filter": {"param": "click"}}]
 		},
-		"color": {
-		"field": "continent",
-		"type": "nominal",
-		"legend": {"title": "Continent"}
-		}
-	},
-	"params": [
 		{
-			"name": "search_input",
-			"bind": {
-				"input": "search",
-				"placeholder": "Country Name",
-				"name": "Search"
+			"encoding": {
+				"color": {
+					"condition": {
+						"param": "click",
+						"field": "continent",
+						"scale": {
+							"domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America"]
+						}
+					},
+					"value": "lightgray"
+				},
+				"x": {"aggregate": "average", "field": "CoCA", "title": "Average Meal Price"},
+        		"y": {"title": "Continent", "field": "continent"}
 			},
-			"value": ""
+			"width": 600,
+			"mark": "bar",
+			"params": [{
+				"name": "click",
+				"select": {"type": "point", "encodings": ["color"]}
+			}],
+			"transform": [{"filter": {"param": "brush"}}]
 		}
 	]
 }
