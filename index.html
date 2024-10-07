@@ -18,11 +18,17 @@
     <p>Test paragraph</p>
   </div>"
 
-<div id="choropleth_map">
-  <script type="text/javascript">
+<!-- <div id="choropleth_map"> -->
+<div id="scatter_healthy_meal_price"></div>
 
+  <script type="text/javascript">
     var vg_1 = "js/map_with_graticules.json";
     vegaEmbed('#choropleth_map', vg_1).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_2 = "js/scatter_healthy_meal_price.json";
+    vegaEmbed('#scatter_healthy_meal_price', vg_2).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>
