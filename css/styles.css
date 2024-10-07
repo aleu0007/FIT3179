@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Quando';
+    src: url('../css/fonts/Quando-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../css/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Numans';
+    src: url('../css/fonts/Numans-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Quando', serif;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Numans', sans-serif;
+    font-size: 20px;
+}
+
