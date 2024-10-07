@@ -19,11 +19,13 @@
 h1 {
     font-family: 'Quando', serif;
     font-size: 80px;
+    align-self: center;
 }
 
 h2 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
+    align-self: center;
 }
 
 p {
@@ -31,3 +33,9 @@ p {
     font-size: 20px;
 }
 
+.w-container {
+    width: 100%;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+}
