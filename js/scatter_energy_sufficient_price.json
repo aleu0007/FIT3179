@@ -162,6 +162,7 @@
 				"tooltip": {"field": "country", "type": "nominal"},
 					"x": {
 						"field": "gdp", 
+						"title": "GDP",
 						"type": "quantitative", 
 						"scale": {
 							"type": "log",
@@ -170,13 +171,14 @@
 						},
 					"y": {
 						"field": "CoCA", 
+						"title": "Cost ($PPP)",
 						"type": "quantitative"
 					},
 				"color": {
 					"condition": {
 						"param": "brush",
 						"field": "continent",
-						"title": "testing",
+						"title": "Continent",
 						"type": "nominal",
 						"scale": {
 							"domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America"]
@@ -206,7 +208,7 @@
 					},
 					"value": "lightgray"
 				},
-				"x": {"aggregate": "average", "field": "CoCA", "title": "Average Meal Price"},
+				"x": {"aggregate": "average", "field": "CoCA", "title": "Average Meal Price ($)"},
         		"y": {"title": "Continent", "field": "continent"}
 			},
 			"width": 600,
