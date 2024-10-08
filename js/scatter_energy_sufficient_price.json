@@ -157,23 +157,30 @@
   ],
 	"data": {"url": "https://raw.githubusercontent.com/aleu0007/FIT3179/refs/heads/main/data/goal02_affordability.csv"},
 	"vconcat": [
-		{
+		{	
 			"encoding": {
-				"tooltip": {"field": "country", "type": "nominal"},
-					"x": {
-						"field": "gdp", 
-						"title": "GDP",
-						"type": "quantitative", 
-						"scale": {
-							"type": "log",
-							"domain": [700, 120000]
-							}
-						},
-					"y": {
-						"field": "CoCA", 
-						"title": "Cost ($PPP)",
-						"type": "quantitative"
+				"tooltip": [
+					{"field": "country", "type": "nominal", "title": "Country"},
+					{"field": "gdp", "type": "quantitative", "title": "GDP", "format": "$,"},
+					{"field": "CoCA", "type": "quantitative", "title": "Cost of an Energy Sufficient Meal", "format": "$.2f"}
+				],
+				"x": {
+					"field": "gdp", 
+					"type": "quantitative", 
+					"title": "GDP",
+					"axis": {
+						"tickCount": 3
 					},
+					"scale": {
+						"type": "log",
+						"domain": [100, 1000000]
+						}
+					},
+				"y": {
+					"field": "CoCA", 
+					"type": "quantitative",
+					"title": "Cost ($PPP)"
+				},
 				"color": {
 					"condition": {
 						"param": "brush",
@@ -185,11 +192,21 @@
 						}
 					},
 					"value": "lightgray"
+				},
+				"size": {
+					"field": "CoCA_headcount",
+					"type": "quantitative",
+					"title": "Percentage Unafford",
+					"scale": {
+						"type": "threshold",
+						"domain": [0.1, 0.4, 2.2, 13.3],
+						"range": [30, 50, 100, 200, 400]
+					}
 				}
 			},
 			"width": 600,
 			"height": 300,
-			"mark": "point",
+			"mark": "circle",
 			"params": [{
 				"name": "brush",
 				"select": {"type": "interval", "encodings": ["x"]}
