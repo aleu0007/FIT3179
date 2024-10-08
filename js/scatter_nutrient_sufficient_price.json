@@ -190,8 +190,39 @@
 		{
 			"name": "search_input",
 			"bind": {
-				"input": "search",
-				"placeholder": "Country Name",
+				"input": "select",
+				"options": [
+					"Angola", "Albania", "United Arab Emirates", "Argentina", "Armenia", 
+					"Australia", "Austria", "Azerbaijan", "Burundi", "Belgium", "Benin", 
+					"Burkina Faso", "Bangladesh", "Bulgaria", "Bosnia and Herzegovina", 
+					"Belarus", "Belize", "Bolivia", "Brazil", "Bhutan", "Botswana", 
+					"Central African Republic", "Canada", "Switzerland", "Chile", 
+					"China", "Cote d’Ivoire (Ivory Coast)", "Cameroon", 
+					"Democratic Republic of the Congo", "Republic of the Congo", 
+					"Colombia", "Cape Verde", "Costa Rica", "Cyprus", "Czech Republic", 
+					"Germany", "Djibouti", "Denmark", "Dominican Republic", "Algeria", 
+					"Ecuador", "Egypt", "Spain", "Estonia", "Ethiopia", "Finland", 
+					"Fiji", "France", "Gabon", "United Kingdom", "Ghana", "Guinea", 
+					"Gambia", "Guinea-Bissau", "Greece", "Guyana", "Honduras", 
+					"Croatia", "Haiti", "Hungary", "Indonesia", "India", "Ireland", 
+					"Iran", "Iraq", "Iceland", "Israel", "Italy", "Jamaica", "Jordan", 
+					"Japan", "Kazakhstan", "Kenya", "Kyrgyzstan", "South Korea", 
+					"Laos", "Liberia", "Saint Lucia", "Sri Lanka", "Lesotho", 
+					"Lithuania", "Luxembourg", "Latvia", "Morocco", "Moldova", 
+					"Madagascar", "Maldives", "Mexico", "North Macedonia", "Mali", 
+					"Malta", "Myanmar", "Montenegro", "Mongolia", "Mozambique", 
+					"Mauritania", "Mauritius", "Malawi", "Malaysia", "Namibia", 
+					"Niger", "Nigeria", "Nicaragua", "Netherlands", "Norway", 
+					"Nepal", "Pakistan", "Panama", "Peru", "Philippines", "Poland", 
+					"Portugal", "Paraguay", "Palestine", "Romania", "Russia", 
+					"Rwanda", "Sudan", "Senegal", "Sierra Leone", "Serbia", 
+					"Sao Tome and Principe", "Suriname", "Slovakia", "Slovenia", 
+					"Sweden", "Eswatini (Swaziland)", "Seychelles", "Chad", 
+					"Thailand", "Tajikistan", "Trinidad and Tobago", "Tunisia", 
+					"Turkey", "Tanzania", "Uganda", "Uruguay", "United States", 
+					"Vietnam", "South Africa", "Zambia", "Zimbabwe"
+				],
+				
 				"name": "Search"
 			},
 			"value": ""
