@@ -28,7 +28,7 @@ function changeContent(section) {
     document.getElementById('dynamic-chart').innerHTML = '';
 
     // Embed new chart
-    vegaEmbed('#dynamic-chart', contentMap[section].chart).catch(console.error);
+    vegaEmbed('#dynamic-chart', contentMap[section].chart, {"actions": false}).catch(console.error);
   } else {
     console.error(`Section ${section} not found in contentMap.`);
   }
