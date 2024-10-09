@@ -12,15 +12,21 @@
 
 </head>
 <body>
-  <div class="header-container">
-    <h1>Test heading</h1>
-    <h2>Test h2 heading</h2>
-    <p>Test paragraph</p>
+  <div class="header-container overlay">
+    <div class="header-content">
+      <h1 class="white-h1">Global Hunger</h1>
+      <p class="white-p">
+        To lead an active and healthy life, individuals need a well-balanced diet
+        that provides adequate calories and the right proportion of essential 
+        nutrients and food groups. Unfortunately, many people globally struggle
+        to afford enough food to meet their daily energy needs, while for others,
+        nutritious diets are prohibitively expensive. 
+      </p>
+    </div>
   </div>
 
-  
-
   <div class="content-container">
+    <div id="choropleth_map" class="idiom"></div>
     <div class="navbar">
       <div onclick="changeContent('section1')"><p>Energy Sufficient</p></div>
       <div onclick="changeContent('section2')"><p>Nutrient Sufficient</p></div>
@@ -28,12 +34,14 @@
     </div>
 
     <div class="dynamic-content-container">
-      <div id="content-title" class="content-title"></div>
       <div id="dynamic-chart"></div>  
-      <div id="content-text" class="content-text"></div>
+      <div class="display: flex; align-items: flex-start;">
+        <div id="content-title" class="content-title"></div>
+        <div id="content-text" class="content-text"></div>
+      </div>
     </div>
 
-    <div id="choropleth_map" class="idiom"></div>
+    
   </div>
   
   <script src="js/navbar.js"></script>

@@ -20,7 +20,15 @@ h1 {
     font-family: 'Quando', serif;
     font-size: 80px;
     align-self: center;
-    margin: 50px 0;
+    margin: 20px 0;
+}
+
+.white-h1 {
+    color: white;
+}
+
+.white-p {
+    color: white;
 }
 
 h2 {
@@ -54,13 +62,27 @@ p {
 }
 
 .header-container {
-    padding: 0 400px;
+    background-image: url(assets/hands.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    border-image-source: linear-gradient(hsla(26, 71%, 27%, 0.5), hsla(36, 82%, 35%, 0.3));
+    border-image-slice: fill 1;
+
+}
+
+.header-content {
     display: flex;
     flex-direction: column;
+    margin: 0 300px;
+    padding: 50px 100px;
+    background-color: hsla(0, 0%, 26%, 0.4);
 }
 
 .content-container {
-    padding: 0 300px;
     display: flex;
     flex-direction: column;
 }
@@ -68,7 +90,7 @@ p {
 .dynamic-content-container {
     padding: 50px 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
