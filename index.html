@@ -6,6 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-animator@1.0.0"></script>
   
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
@@ -34,12 +35,26 @@
 
     <section>
       <h1 class="subheading">Meal Affordability</h1>
-      <p>The three main types of diets are:</p>
-      <ul class="centered-list">
-        <li><p><strong>Energy-sufficient diet</strong>: ensures adequate energy intake primarily from starchy foods.</p></li>
-        <li><p><strong>Nutrient-balanced diet</strong>: prevents both nutrient deficiencies and excesses.</p></li>
-        <li><p><strong>Healthy diet</strong>: supports the prevention of diet-related diseases and achieve nutrient adequacy.</p></li>
-      </ul>
+      
+      <div class="meal-para">
+        <div class="display: flex;">
+          <p>The three main types of diets are:</p>
+          <ul class="left-list">
+            <li><p><strong>Energy-sufficient diet</strong>: ensures adequate energy intake primarily from starchy foods.</p></li>
+            <li><p><strong>Nutrient-balanced diet</strong>: prevents both nutrient deficiencies and excesses.</p></li>
+            <li><p><strong>Healthy diet</strong>: supports the prevention of diet-related diseases and achieve nutrient adequacy.</p></li>
+          </ul>
+        </div>
+  
+        <div class="display: flex;">
+          <p><b>Interaction Tips</b></p>
+          <ul class="left-list">
+            <li><p>Click on a tab to view the cost for each type of meal.</p></li>
+            <li><p>Click on drag on the scatterplot to filter.</p></li>
+            <li><p>Click on a bar to filter by Continent. Hold Shift and click for multi-select.</p></li>
+          </ul>
+        </div>
+      </div>
 
       <div class="navbar">
         <div onclick="changeContent('section1')"><p>Energy Sufficient</p></div>
@@ -50,8 +65,8 @@
       <div class="dynamic-content-container">
         <div id="dynamic-chart"></div>  
         <div class="display: flex; align-items: flex-start;">
-          <div id="content-title" class="content-title"></div>
-          <div id="content-text" class="content-text"></div>
+          <div id="content-title" class="dynamic-content-title"></div>
+          <div id="content-text" class="dynamic-content-text"></div>
         </div>
       </div>
     </section>

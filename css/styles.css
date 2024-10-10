@@ -49,17 +49,17 @@ p {
     align-self: center;
 }
 
-.content-title {
+.dynamic-content-title {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
-    margin: 10px 0;
+    margin: 10px 40px;
     align-self: center;
 }
 
-.content-text {
+.dynamic-content-text {
     font-family: 'Numans', sans-serif;
     font-size: 20px;
-    margin: 20px 0;
+    margin: 20px 40px;
 }
 
 .idiom {
@@ -125,8 +125,13 @@ section {
     background-color: #555; /* Background color for hover and active state */
 }
 
-.centered-list {
+.left-list {
     list-style-type: none;      /* Remove bullet points */
     padding: 0 100px;                 /* Remove default padding */
     text-align: left;         /* Center the text */
+}
+
+.meal-para {
+    display: flex;
+    flex-direction: row;
 }
