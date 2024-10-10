@@ -16,6 +16,9 @@
             "field": "gdp",
             "type": "quantitative",
             "title": "GDP",
+            "axis": {
+						"tickCount": 3
+					},
             "scale": 
                 {
                     "type": "log",
@@ -49,6 +52,12 @@
         "opacity": { 
             "condition": {"selection": "diet_highlight", "value": 0.6}, 
             "value": 0.2 
-        } 
+        },
+        "tooltip": [
+            {"field": "country", "type": "nominal", "title": "Country"},
+            {"field": "gdp", "type": "quantitative", "title": "GDP", "format": "$,"},
+            {"field": "diet_type", "type": "nominal", "title": "Diet Type"},
+            {"field": "cost", "type": "quantitative", "title": "Meal Cost", "format": "$.2f"}
+        ]
     }
 }

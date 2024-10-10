@@ -225,8 +225,12 @@
 					},
 					"value": "lightgray"
 				},
-				"x": {"aggregate": "average", "field": "CoCA", "title": "Average Meal Price ($)"},
-        		"y": {"title": "Continent", "field": "continent"}
+				"x": {"aggregate": "average", "field": "CoCA", "title": "Average Meal Price ($)", "axis": {"tickCount": 5}},
+        		"y": {"title": "Continent", "field": "continent"},
+				"tooltip": [
+					{"field": "continent", "type": "nominal", "title": "Continent"},
+					{"aggregate": "average", "field": "CoCA", "type": "quantitative", "title": "Average Cost:", "format": "$.2f"}
+				]
 			},
 			"width": 600,
 			"mark": "bar",
