@@ -1,0 +1,427 @@
+﻿country_code,country,gdp,diet_type,cost
+AGO,Angola,7310.897,Energy Sufficient,1.4
+AGO,Angola,7310.897,Nutrient Balanced,3.23
+AGO,Angola,7310.897,Healthy,4.33
+ALB,Albania,12770.96,Energy Sufficient,0.73
+ALB,Albania,12770.96,Nutrient Balanced,2.47
+ALB,Albania,12770.96,Healthy,3.95
+ARE,United Arab Emirates,67183.61,Energy Sufficient,0.75
+ARE,United Arab Emirates,67183.61,Nutrient Balanced,1.81
+ARE,United Arab Emirates,67183.61,Healthy,2.76
+ARG,Argentina,23597.12,Energy Sufficient,0.65
+ARG,Argentina,23597.12,Nutrient Balanced,2.63
+ARG,Argentina,23597.12,Healthy,3.34
+ARM,Armenia,12115.14,Energy Sufficient,1.01
+ARM,Armenia,12115.14,Nutrient Balanced,2.21
+ARM,Armenia,12115.14,Healthy,3.1
+AUS,Australia,48398.55,Energy Sufficient,0.31
+AUS,Australia,48398.55,Nutrient Balanced,1.6
+AUS,Australia,48398.55,Healthy,2.26
+AUT,Austria,54172.99,Energy Sufficient,0.35
+AUT,Austria,54172.99,Nutrient Balanced,2.26
+AUT,Austria,54172.99,Healthy,2.77
+AZE,Azerbaijan,14121.41,Energy Sufficient,0.79
+AZE,Azerbaijan,14121.41,Nutrient Balanced,1.84
+AZE,Azerbaijan,14121.41,Healthy,2.35
+BDI,Burundi,773.573,Energy Sufficient,0.71
+BDI,Burundi,773.573,Nutrient Balanced,1.59
+BDI,Burundi,773.573,Healthy,2.99
+BEL,Belgium,50442.27,Energy Sufficient,0.26
+BEL,Belgium,50442.27,Nutrient Balanced,2.41
+BEL,Belgium,50442.27,Healthy,2.86
+BEN,Benin,3044.517,Energy Sufficient,0.65
+BEN,Benin,3044.517,Nutrient Balanced,2.5
+BEN,Benin,3044.517,Healthy,3.55
+BFA,Burkina Faso,2044.387,Energy Sufficient,0.57
+BFA,Burkina Faso,2044.387,Nutrient Balanced,2.54
+BFA,Burkina Faso,2044.387,Healthy,3.17
+BGD,Bangladesh,4894.563,Energy Sufficient,0.64
+BGD,Bangladesh,4894.563,Nutrient Balanced,1.95
+BGD,Bangladesh,4894.563,Healthy,2.88
+BGR,Bulgaria,21469.95,Energy Sufficient,0.5
+BGR,Bulgaria,21469.95,Nutrient Balanced,2.77
+BGR,Bulgaria,21469.95,Healthy,3.78
+BIH,Bosnia and Herzegovina,13753.84,Energy Sufficient,0.69
+BIH,Bosnia and Herzegovina,13753.84,Nutrient Balanced,3.05
+BIH,Bosnia and Herzegovina,13753.84,Healthy,3.85
+BLR,Belarus,18356.1,Energy Sufficient,0.8
+BLR,Belarus,18356.1,Nutrient Balanced,2.16
+BLR,Belarus,18356.1,Healthy,3.18
+BLZ,Belize,7140.905,Energy Sufficient,1.13
+BLZ,Belize,7140.905,Nutrient Balanced,2.8
+BLZ,Belize,7140.905,Healthy,2.48
+BOL,Bolivia,8423.698,Energy Sufficient,1.47
+BOL,Bolivia,8423.698,Nutrient Balanced,3.34
+BOL,Bolivia,8423.698,Healthy,3.55
+BRA,Brazil,14524.61,Energy Sufficient,0.85
+BRA,Brazil,14524.61,Nutrient Balanced,2.66
+BRA,Brazil,14524.61,Healthy,2.81
+BTN,Bhutan,11142.47,Energy Sufficient,1.05
+BTN,Bhutan,11142.47,Nutrient Balanced,2.8
+BTN,Bhutan,11142.47,Healthy,4.38
+BWA,Botswana,15948.03,Energy Sufficient,0.51
+BWA,Botswana,15948.03,Nutrient Balanced,2.25
+BWA,Botswana,15948.03,Healthy,3.62
+CAF,Central African Republic,912.803,Energy Sufficient,1.02
+CAF,Central African Republic,912.803,Nutrient Balanced,1.71
+CAF,Central African Republic,912.803,Healthy,3.42
+CAN,Canada,48317.17,Energy Sufficient,0.67
+CAN,Canada,48317.17,Nutrient Balanced,2.11
+CAN,Canada,48317.17,Healthy,2.86
+CHE,Switzerland,69103.57,Energy Sufficient,0.42
+CHE,Switzerland,69103.57,Nutrient Balanced,2.1
+CHE,Switzerland,69103.57,Healthy,2.52
+CHL,Chile,24411.54,Energy Sufficient,0.64
+CHL,Chile,24411.54,Nutrient Balanced,2.18
+CHL,Chile,24411.54,Healthy,3.05
+CHN,China,14243.53,Energy Sufficient,0.85
+CHN,China,14243.53,Nutrient Balanced,2.11
+CHN,China,14243.53,Healthy,2.57
+CIV,Côte d'Ivoire (Ivory Coast),4830.751,Energy Sufficient,0.82
+CIV,Côte d'Ivoire (Ivory Coast),4830.751,Nutrient Balanced,1.62
+CIV,Côte d'Ivoire (Ivory Coast),4830.751,Healthy,3.27
+CMR,Cameroon,3665.118,Energy Sufficient,0.89
+CMR,Cameroon,3665.118,Nutrient Balanced,2.07
+CMR,Cameroon,3665.118,Healthy,2.62
+COD,Democratic Republic of the Congo,1059.811,Energy Sufficient,0.56
+COD,Democratic Republic of the Congo,1059.811,Nutrient Balanced,2.05
+COD,Democratic Republic of the Congo,1059.811,Healthy,2.92
+COG,Republic of the Congo,4234.66,Energy Sufficient,0.99
+COG,Republic of the Congo,4234.66,Nutrient Balanced,2.58
+COG,Republic of the Congo,4234.66,Healthy,3.34
+COL,Colombia,14171.32,Energy Sufficient,0.99
+COL,Colombia,14171.32,Nutrient Balanced,2.53
+COL,Colombia,14171.32,Healthy,2.86
+CPV,Cape Verde,6643.18,Energy Sufficient,0.62
+CPV,Cape Verde,6643.18,Nutrient Balanced,2.52
+CPV,Cape Verde,6643.18,Healthy,3.36
+CRI,Costa Rica,20347.03,Energy Sufficient,0.97
+CRI,Costa Rica,20347.03,Nutrient Balanced,2.82
+CRI,Costa Rica,20347.03,Healthy,3.96
+CYP,Cyprus,38287.97,Energy Sufficient,0.58
+CYP,Cyprus,38287.97,Nutrient Balanced,2.07
+CYP,Cyprus,38287.97,Healthy,2.85
+CZE,Czech Republic,38824.89,Energy Sufficient,0.44
+CZE,Czech Republic,38824.89,Nutrient Balanced,2.36
+CZE,Czech Republic,38824.89,Healthy,2.9
+DEU,Germany,53071.46,Energy Sufficient,0.26
+DEU,Germany,53071.46,Nutrient Balanced,2.22
+DEU,Germany,53071.46,Healthy,2.79
+DJI,Djibouti,4904.977,Energy Sufficient,0.62
+DJI,Djibouti,4904.977,Nutrient Balanced,2.46
+DJI,Djibouti,4904.977,Healthy,2.8
+DNK,Denmark,55356.68,Energy Sufficient,0.3
+DNK,Denmark,55356.68,Nutrient Balanced,1.73
+DNK,Denmark,55356.68,Healthy,2.38
+DOM,Dominican Republic,16735.36,Energy Sufficient,1.18
+DOM,Dominican Republic,16735.36,Nutrient Balanced,2.88
+DOM,Dominican Republic,16735.36,Healthy,3.52
+DZA,Algeria,11737.4,Energy Sufficient,0.77
+DZA,Algeria,11737.4,Nutrient Balanced,2.32
+DZA,Algeria,11737.4,Healthy,3.76
+ECU,Ecuador,11617.91,Energy Sufficient,1.35
+ECU,Ecuador,11617.91,Nutrient Balanced,2.51
+ECU,Ecuador,11617.91,Healthy,2.79
+EGY,Egypt,11014.49,Energy Sufficient,0.99
+EGY,Egypt,11014.49,Nutrient Balanced,2.29
+EGY,Egypt,11014.49,Healthy,3.46
+ESP,Spain,39528.93,Energy Sufficient,0.44
+ESP,Spain,39528.93,Nutrient Balanced,1.75
+ESP,Spain,39528.93,Healthy,2.7
+EST,Estonia,33821.93,Energy Sufficient,0.42
+EST,Estonia,33821.93,Nutrient Balanced,2.55
+EST,Estonia,33821.93,Healthy,3.13
+ETH,Ethiopia,2021.563,Energy Sufficient,0.72
+ETH,Ethiopia,2021.563,Nutrient Balanced,2
+ETH,Ethiopia,2021.563,Healthy,3.11
+FIN,Finland,47570.13,Energy Sufficient,0.28
+FIN,Finland,47570.13,Nutrient Balanced,2.47
+FIN,Finland,47570.13,Healthy,2.55
+FJI,Fiji,13429.3,Energy Sufficient,0.85
+FJI,Fiji,13429.3,Nutrient Balanced,2.56
+FJI,Fiji,13429.3,Healthy,3.61
+FRA,France,44577.06,Energy Sufficient,0.32
+FRA,France,44577.06,Nutrient Balanced,1.87
+FRA,France,44577.06,Healthy,2.94
+GAB,Gabon,15006.84,Energy Sufficient,0.96
+GAB,Gabon,15006.84,Nutrient Balanced,2.57
+GAB,Gabon,15006.84,Healthy,3.36
+GBR,United Kingdom,46372.39,Energy Sufficient,0.26
+GBR,United Kingdom,46372.39,Nutrient Balanced,1.53
+GBR,United Kingdom,46372.39,Healthy,1.82
+GHA,Ghana,5115.907,Energy Sufficient,0.82
+GHA,Ghana,5115.907,Nutrient Balanced,2.52
+GHA,Ghana,5115.907,Healthy,3.77
+GIN,Guinea,2417.804,Energy Sufficient,0.9
+GIN,Guinea,2417.804,Nutrient Balanced,2.22
+GIN,Guinea,2417.804,Healthy,3.66
+GMB,Gambia,2072.647,Energy Sufficient,0.98
+GMB,Gambia,2072.647,Nutrient Balanced,2.53
+GMB,Gambia,2072.647,Healthy,2.94
+GNB,Guinea-Bissau,1925.238,Energy Sufficient,0.93
+GNB,Guinea-Bissau,1925.238,Nutrient Balanced,1.86
+GNB,Guinea-Bissau,1925.238,Healthy,3.16
+GRC,Greece,28604.86,Energy Sufficient,0.67
+GRC,Greece,28604.86,Nutrient Balanced,2.56
+GRC,Greece,28604.86,Healthy,3.04
+GUY,Guyana,12005.41,Energy Sufficient,0.73
+GUY,Guyana,12005.41,Nutrient Balanced,3.61
+GUY,Guyana,12005.41,Healthy,4.63
+HND,Honduras,5561.995,Energy Sufficient,1.15
+HND,Honduras,5561.995,Nutrient Balanced,3.47
+HND,Honduras,5561.995,Healthy,3.36
+HRV,Croatia,27154.08,Energy Sufficient,0.66
+HRV,Croatia,27154.08,Nutrient Balanced,3.21
+HRV,Croatia,27154.08,Healthy,4.17
+HTI,Haiti,3153.299,Energy Sufficient,1.1
+HTI,Haiti,3153.299,Nutrient Balanced,2.93
+HTI,Haiti,3153.299,Healthy,3.93
+HUN,Hungary,29501.12,Energy Sufficient,0.43
+HUN,Hungary,29501.12,Nutrient Balanced,2.26
+HUN,Hungary,29501.12,Healthy,3.3
+IDN,Indonesia,10935.63,Energy Sufficient,1.02
+IDN,Indonesia,10935.63,Nutrient Balanced,2.66
+IDN,Indonesia,10935.63,Healthy,4.13
+IND,India,6182.922,Energy Sufficient,0.79
+IND,India,6182.922,Nutrient Balanced,2.13
+IND,India,6182.922,Healthy,2.82
+IRL,Ireland,77749.2,Energy Sufficient,0.57
+IRL,Ireland,77749.2,Nutrient Balanced,2.03
+IRL,Ireland,77749.2,Healthy,2.4
+IRN,Iran,15883.39,Energy Sufficient,0.87
+IRN,Iran,15883.39,Nutrient Balanced,2.01
+IRN,Iran,15883.39,Healthy,3.01
+IRQ,Iraq,10526.37,Energy Sufficient,1.17
+IRQ,Iraq,10526.37,Nutrient Balanced,2.51
+IRQ,Iraq,10526.37,Healthy,3.38
+ISL,Iceland,55638.49,Energy Sufficient,0.38
+ISL,Iceland,55638.49,Nutrient Balanced,2.42
+ISL,Iceland,55638.49,Healthy,2.21
+ISR,Israel,39121.3,Energy Sufficient,0.5
+ISR,Israel,39121.3,Nutrient Balanced,1.9
+ISR,Israel,39121.3,Healthy,2.44
+ITA,Italy,41581.12,Energy Sufficient,0.31
+ITA,Italy,41581.12,Nutrient Balanced,2.23
+ITA,Italy,41581.12,Healthy,2.89
+JAM,Jamaica,9600.105,Energy Sufficient,1.02
+JAM,Jamaica,9600.105,Nutrient Balanced,4.06
+JAM,Jamaica,9600.105,Healthy,5.98
+JOR,Jordan,10003.57,Energy Sufficient,0.64
+JOR,Jordan,10003.57,Nutrient Balanced,1.61
+JOR,Jordan,10003.57,Healthy,3.41
+JPN,Japan,41444.22,Energy Sufficient,2.96
+JPN,Japan,41444.22,Nutrient Balanced,3.56
+JPN,Japan,41444.22,Healthy,5.53
+KAZ,Kazakhstan,24862.97,Energy Sufficient,0.65
+KAZ,Kazakhstan,24862.97,Nutrient Balanced,1.75
+KAZ,Kazakhstan,24862.97,Healthy,2.39
+KEN,Kenya,4203.585,Energy Sufficient,0.77
+KEN,Kenya,4203.585,Nutrient Balanced,1.85
+KEN,Kenya,4203.585,Healthy,2.85
+KGZ,Kyrgyzstan,5046.692,Energy Sufficient,0.97
+KGZ,Kyrgyzstan,5046.692,Nutrient Balanced,2.46
+KGZ,Kyrgyzstan,5046.692,Healthy,2.97
+KOR,South Korea,40957.42,Energy Sufficient,0.67
+KOR,South Korea,40957.42,Nutrient Balanced,4.24
+KOR,South Korea,40957.42,Healthy,4.71
+LAO,Laos,7257.812,Energy Sufficient,0.72
+LAO,Laos,7257.812,Nutrient Balanced,2.9
+LAO,Laos,7257.812,Healthy,3.78
+LBR,Liberia,1564.198,Energy Sufficient,0.97
+LBR,Liberia,1564.198,Nutrient Balanced,2.98
+LBR,Liberia,1564.198,Healthy,4.02
+LCA,Saint Lucia,14928.4,Energy Sufficient,1.05
+LCA,Saint Lucia,14928.4,Nutrient Balanced,2.65
+LCA,Saint Lucia,14928.4,Healthy,3.26
+LKA,Sri Lanka,12584.1,Energy Sufficient,0.97
+LKA,Sri Lanka,12584.1,Nutrient Balanced,2.23
+LKA,Sri Lanka,12584.1,Healthy,3.7
+LSO,Lesotho,2668.291,Energy Sufficient,0.61
+LSO,Lesotho,2668.291,Nutrient Balanced,2.31
+LSO,Lesotho,2668.291,Healthy,3.77
+LTU,Lithuania,33761.87,Energy Sufficient,0.51
+LTU,Lithuania,33761.87,Nutrient Balanced,1.97
+LTU,Lithuania,33761.87,Healthy,3
+LUX,Luxembourg,114985.8,Energy Sufficient,0.34
+LUX,Luxembourg,114985.8,Nutrient Balanced,2.04
+LUX,Luxembourg,114985.8,Healthy,2.49
+LVA,Latvia,28673.56,Energy Sufficient,0.44
+LVA,Latvia,28673.56,Nutrient Balanced,2.03
+LVA,Latvia,28673.56,Healthy,3.12
+MAR,Morocco,7312.057,Energy Sufficient,0.61
+MAR,Morocco,7312.057,Nutrient Balanced,1.91
+MAR,Morocco,7312.057,Healthy,2.71
+MDA,Moldova,11651.32,Energy Sufficient,0.8
+MDA,Moldova,11651.32,Nutrient Balanced,1.68
+MDA,Moldova,11651.32,Healthy,2.46
+MDG,Madagascar,1584.425,Energy Sufficient,1.08
+MDG,Madagascar,1584.425,Nutrient Balanced,2.59
+MDG,Madagascar,1584.425,Healthy,2.99
+MDV,Maldives,18057.91,Energy Sufficient,0.42
+MDV,Maldives,18057.91,Nutrient Balanced,2.69
+MDV,Maldives,18057.91,Healthy,3.58
+MEX,Mexico,19721.26,Energy Sufficient,0.64
+MEX,Mexico,19721.26,Nutrient Balanced,2.48
+MEX,Mexico,19721.26,Healthy,2.99
+MKD,North Macedonia,15706.44,Energy Sufficient,0.73
+MKD,North Macedonia,15706.44,Nutrient Balanced,2.97
+MKD,North Macedonia,15706.44,Healthy,3.32
+MLI,Mali,2246.797,Energy Sufficient,0.6
+MLI,Mali,2246.797,Nutrient Balanced,1.99
+MLI,Mali,2246.797,Healthy,2.9
+MLT,Malta,43559.32,Energy Sufficient,0.74
+MLT,Malta,43559.32,Nutrient Balanced,2.65
+MLT,Malta,43559.32,Healthy,3.49
+MMR,Myanmar,4224.545,Energy Sufficient,0.91
+MMR,Myanmar,4224.545,Nutrient Balanced,2.6
+MMR,Myanmar,4224.545,Healthy,3.71
+MNE,Montenegro,19682.27,Energy Sufficient,0.55
+MNE,Montenegro,19682.27,Nutrient Balanced,2.29
+MNE,Montenegro,19682.27,Healthy,3.4
+MNG,Mongolia,11366.3,Energy Sufficient,0.74
+MNG,Mongolia,11366.3,Nutrient Balanced,2.26
+MNG,Mongolia,11366.3,Healthy,4.54
+MOZ,Mozambique,1283.66,Energy Sufficient,0.38
+MOZ,Mozambique,1283.66,Nutrient Balanced,1.97
+MOZ,Mozambique,1283.66,Healthy,3.03
+MRT,Mauritania,5108.549,Energy Sufficient,0.88
+MRT,Mauritania,5108.549,Nutrient Balanced,2.81
+MRT,Mauritania,5108.549,Healthy,3.45
+MUS,Mauritius,21415.12,Energy Sufficient,0.81
+MUS,Mauritius,21415.12,Nutrient Balanced,2.52
+MUS,Mauritius,21415.12,Healthy,3.31
+MWI,Malawi,1472.147,Energy Sufficient,0.29
+MWI,Malawi,1472.147,Nutrient Balanced,1.62
+MWI,Malawi,1472.147,Healthy,2.72
+MYS,Malaysia,26661.51,Energy Sufficient,0.91
+MYS,Malaysia,26661.51,Nutrient Balanced,2.38
+MYS,Malaysia,26661.51,Healthy,3.22
+NAM,Namibia,10171.42,Energy Sufficient,1.01
+NAM,Namibia,10171.42,Nutrient Balanced,1.84
+NAM,Namibia,10171.42,Healthy,3.26
+NER,Niger,1163.226,Energy Sufficient,0.61
+NER,Niger,1163.226,Nutrient Balanced,1.66
+NER,Niger,1163.226,Healthy,2.85
+NGA,Nigeria,5190.356,Energy Sufficient,1.38
+NGA,Nigeria,5190.356,Nutrient Balanced,2.12
+NGA,Nigeria,5190.356,Healthy,3.57
+NIC,Nicaragua,6004.029,Energy Sufficient,1.44
+NIC,Nicaragua,6004.029,Nutrient Balanced,2.49
+NIC,Nicaragua,6004.029,Healthy,3.19
+NLD,Netherlands,55088.63,Energy Sufficient,0.3
+NLD,Netherlands,55088.63,Nutrient Balanced,1.77
+NLD,Netherlands,55088.63,Healthy,2.74
+NOR,Norway,64050.76,Energy Sufficient,1.12
+NOR,Norway,64050.76,Nutrient Balanced,2.85
+NOR,Norway,64050.76,Healthy,3.33
+NPL,Nepal,3565.198,Energy Sufficient,0.99
+NPL,Nepal,3565.198,Nutrient Balanced,2.57
+NPL,Nepal,3565.198,Healthy,4.13
+PAK,Pakistan,5091.087,Energy Sufficient,0.77
+PAK,Pakistan,5091.087,Nutrient Balanced,1.95
+PAK,Pakistan,5091.087,Healthy,3.41
+PAN,Panama,30446.85,Energy Sufficient,1.13
+PAN,Panama,30446.85,Nutrient Balanced,3.22
+PAN,Panama,30446.85,Healthy,4.23
+PER,Peru,12506.53,Energy Sufficient,0.92
+PER,Peru,12506.53,Nutrient Balanced,2.24
+PER,Peru,12506.53,Healthy,3.08
+PHL,Philippines,8120.869,Energy Sufficient,1.16
+PHL,Philippines,8120.869,Nutrient Balanced,2.82
+PHL,Philippines,8120.869,Healthy,3.84
+POL,Poland,30064.5,Energy Sufficient,0.39
+POL,Poland,30064.5,Nutrient Balanced,1.93
+POL,Poland,30064.5,Healthy,2.91
+PRT,Portugal,33044.72,Energy Sufficient,0.41
+PRT,Portugal,33044.72,Nutrient Balanced,1.84
+PRT,Portugal,33044.72,Healthy,2.51
+PRY,Paraguay,12590.55,Energy Sufficient,0.95
+PRY,Paraguay,12590.55,Nutrient Balanced,3.89
+PRY,Paraguay,12590.55,Healthy,3.43
+PSE,Palestine,6401.741,Energy Sufficient,1.12
+PSE,Palestine,6401.741,Nutrient Balanced,1.76
+PSE,Palestine,6401.741,Healthy,3.34
+ROU,Romania,27141.9,Energy Sufficient,0.49
+ROU,Romania,27141.9,Nutrient Balanced,2.19
+ROU,Romania,27141.9,Healthy,2.92
+RUS,Russia,25926.44,Energy Sufficient,0.61
+RUS,Russia,25926.44,Nutrient Balanced,2.22
+RUS,Russia,25926.44,Healthy,3.15
+RWA,Rwanda,1975.249,Energy Sufficient,0.76
+RWA,Rwanda,1975.249,Nutrient Balanced,1.31
+RWA,Rwanda,1975.249,Healthy,2.61
+SDN,Sudan,4598.85,Energy Sufficient,1.08
+SDN,Sudan,4598.85,Nutrient Balanced,2.09
+SDN,Sudan,4598.85,Healthy,3.67
+SEN,Senegal,3203.906,Energy Sufficient,0.75
+SEN,Senegal,3203.906,Nutrient Balanced,1.86
+SEN,Senegal,3203.906,Healthy,2.19
+SLE,Sierra Leone,1633.731,Energy Sufficient,1.24
+SLE,Sierra Leone,1633.731,Nutrient Balanced,2.2
+SLE,Sierra Leone,1633.731,Healthy,2.84
+SRB,Serbia,16611.02,Energy Sufficient,0.6
+SRB,Serbia,16611.02,Nutrient Balanced,2.67
+SRB,Serbia,16611.02,Healthy,4.07
+STP,São Tomé and Príncipe,3952.945,Energy Sufficient,0.9
+STP,São Tomé and Príncipe,3952.945,Nutrient Balanced,2.57
+STP,São Tomé and Príncipe,3952.945,Healthy,3.29
+SUR,Suriname,18283.69,Energy Sufficient,1.14
+SUR,Suriname,18283.69,Nutrient Balanced,3.39
+SUR,Suriname,18283.69,Healthy,4.97
+SVK,Slovakia,30061.55,Energy Sufficient,0.36
+SVK,Slovakia,30061.55,Nutrient Balanced,1.98
+SVK,Slovakia,30061.55,Healthy,3.01
+SVN,Slovenia,36507.55,Energy Sufficient,0.43
+SVN,Slovenia,36507.55,Nutrient Balanced,2.02
+SVN,Slovenia,36507.55,Healthy,2.8
+SWE,Sweden,51947.95,Energy Sufficient,0.8
+SWE,Sweden,51947.95,Nutrient Balanced,2.43
+SWE,Sweden,51947.95,Healthy,3.09
+SWZ,Eswatini (Swaziland),8408.036,Energy Sufficient,0.93
+SWZ,Eswatini (Swaziland),8408.036,Nutrient Balanced,2.24
+SWZ,Eswatini (Swaziland),8408.036,Healthy,3.43
+SYC,Seychelles,28116.71,Energy Sufficient,0.63
+SYC,Seychelles,28116.71,Nutrient Balanced,2.17
+SYC,Seychelles,28116.71,Healthy,4.01
+TCD,Chad,1587.032,Energy Sufficient,0.71
+TCD,Chad,1587.032,Nutrient Balanced,1.76
+TCD,Chad,1587.032,Healthy,2.83
+THA,Thailand,17422.95,Energy Sufficient,1.05
+THA,Thailand,17422.95,Nutrient Balanced,2.88
+THA,Thailand,17422.95,Healthy,3.97
+TJK,Tajikistan,3252.933,Energy Sufficient,0.91
+TJK,Tajikistan,3252.933,Nutrient Balanced,2.35
+TJK,Tajikistan,3252.933,Healthy,3.03
+TTO,Trinidad and Tobago,27277.88,Energy Sufficient,1.01
+TTO,Trinidad and Tobago,27277.88,Nutrient Balanced,3.14
+TTO,Trinidad and Tobago,27277.88,Healthy,3.93
+TUN,Tunisia,11234.5,Energy Sufficient,0.6
+TUN,Tunisia,11234.5,Nutrient Balanced,1.88
+TUN,Tunisia,11234.5,Healthy,3.48
+TUR,Turkey,27913.82,Energy Sufficient,0.71
+TUR,Turkey,27913.82,Nutrient Balanced,2.29
+TUR,Turkey,27913.82,Healthy,2.87
+TZA,Tanzania,2530.603,Energy Sufficient,0.99
+TZA,Tanzania,2530.603,Nutrient Balanced,1.94
+TZA,Tanzania,2530.603,Healthy,2.6
+UGA,Uganda,2074.652,Energy Sufficient,0.65
+UGA,Uganda,2074.652,Nutrient Balanced,1.8
+UGA,Uganda,2074.652,Healthy,2.75
+URY,Uruguay,23009.87,Energy Sufficient,0.69
+URY,Uruguay,23009.87,Nutrient Balanced,2.13
+URY,Uruguay,23009.87,Healthy,3.07
+USA,United States,59914.78,Energy Sufficient,0.91
+USA,United States,59914.78,Nutrient Balanced,2.22
+USA,United States,59914.78,Healthy,3.23
+VNM,Vietnam,8996.378,Energy Sufficient,0.98
+VNM,Vietnam,8996.378,Nutrient Balanced,2.51
+VNM,Vietnam,8996.378,Healthy,3.59
+ZAF,South Africa,13860.27,Energy Sufficient,1.27
+ZAF,South Africa,13860.27,Nutrient Balanced,3.41
+ZAF,South Africa,13860.27,Healthy,4.1
+ZMB,Zambia,3485.022,Energy Sufficient,1.28
+ZMB,Zambia,3485.022,Nutrient Balanced,2.38
+ZMB,Zambia,3485.022,Healthy,3.09
+ZWE,Zimbabwe,2416.05,Energy Sufficient,0.78
+ZWE,Zimbabwe,2416.05,Nutrient Balanced,2.3
+ZWE,Zimbabwe,2416.05,Healthy,3.46

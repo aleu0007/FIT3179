@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "data/affordability_transposed.csv"
+    },
+    "selection": {
+        "diet_highlight": {
+            "type": "single",
+            "fields": ["diet_type"],
+            "bind": "legend"
+        }
+    },
+    "mark": "point",
+    "encoding": {
+        "x": {
+            "field": "gdp",
+            "type": "quantitative",
+            "title": "GDP",
+            "scale": 
+                {
+                    "type": "log",
+                    "domain": [100, 1000000]
+                }
+        },
+        "y": {
+            "field": "cost",
+            "type": "quantitative",
+            "title": "Cost ($PPP)",
+            "scale": {"zero": false}
+        },
+        "color": {
+            "field": "diet_type", 
+            "type": "nominal",
+            "title": "Diet Type",
+            "scale"  : { 
+                "domain"  : [ 
+                    "Energy Sufficient"  , 
+                    "Nutrient Balanced"  , 
+                    "Healthy" 
+                ], 
+                    "range"  : [ 
+                    "#6b6ecf"  , 
+                    "#17becf"  , 
+                    "#2ca02c" 
+                ]
+            }
+       
+        },
+        "opacity": { 
+            "condition": {"selection": "diet_highlight", "value": 0.6}, 
+            "value": 0.2 
+        } 
+    }
+}

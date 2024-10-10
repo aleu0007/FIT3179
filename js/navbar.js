@@ -8,7 +8,7 @@ function changeContent(section) {
       chart: "js/scatter_energy_sufficient_price.json"
     },
     section2: {
-      title: "Cost of a Nutrient Sufficient Meal",
+      title: "Cost of a Nutrient Balanced Meal",
       text: "Content for Section 2 goes here.",
       chart: "js/scatter_nutrient_sufficient_price.json"
     },

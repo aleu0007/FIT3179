@@ -109,6 +109,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
 }
 
 .dynamic-content-container {
@@ -145,5 +146,7 @@ section {
 
 .meal-para {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    align-items: flex-start;
 }

@@ -41,12 +41,17 @@
           While costs are not linked to a country's income, affordability strongly correlates with income levels, 
           becoming more attainable as income increases.
         </p>
+        <br>
+        <p class="white-p">
+          The prices shown are the cheapest food items in each country that meet the standards of the three diets,
+          adjusted for purchasing power parity to reflect local living costs.
+        </p>
       </div>
     </section>
 
     <section>
       <div class="meal-para">
-        <div class="display: flex;">
+        <div class="content-container">
           <p>The three main types of diets are:</p>
           <ul class="left-list">
             <li><p><strong>Energy-sufficient diet</strong>: ensures adequate energy intake primarily from starchy foods.</p></li>
@@ -55,7 +60,7 @@
           </ul>
         </div>
   
-        <div class="display: flex;">
+        <div class="content-container">
           <p><b>Interaction Tips</b></p>
           <ul class="left-list">
             <li><p>Click on a tab to view the cost for each type of meal.</p></li>
@@ -67,7 +72,7 @@
 
       <div class="navbar">
         <div onclick="changeContent('section1')"><p>Energy Sufficient</p></div>
-        <div onclick="changeContent('section2')"><p>Nutrient Sufficient</p></div>
+        <div onclick="changeContent('section2')"><p>Nutrient Balanced</p></div>
         <div onclick="changeContent('section3')"><p>Healthy</p></div>
       </div>
       
@@ -80,6 +85,7 @@
       </div>
     </section>
       
+    <div id="scatter_colour" class="idiom"></div>
     
   </section>
   
@@ -87,6 +93,11 @@
   <script type="text/javascript">
     var vg_1 = "js/map_with_graticules.json";
     vegaEmbed('#choropleth_map', vg_1, {"actions": false}).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_2 = "js/scatter_colour.json";
+    vegaEmbed('#scatter_colour', vg_2, {"actions": false}).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
