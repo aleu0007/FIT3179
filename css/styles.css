@@ -18,7 +18,7 @@
 
 h1 {
     font-family: 'Quando', serif;
-    font-size: 80px;
+    font-size: 60px;
     align-self: center;
     margin: 20px 0;
 }
@@ -29,6 +29,10 @@ h1 {
 
 .white-p {
     color: white;
+}
+
+.subheading {
+    font-size: 60px;
 }
 
 h2 {
@@ -42,6 +46,7 @@ p {
     font-family: 'Numans', sans-serif;
     font-size: 20px;
     margin: 20px 0;
+    align-self: center;
 }
 
 .content-title {
@@ -74,6 +79,12 @@ p {
 
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header-content {
     display: flex;
     flex-direction: column;
@@ -85,6 +96,7 @@ p {
 .content-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .dynamic-content-container {
@@ -98,17 +110,23 @@ p {
     display: flex;
     background-color: #333;
     overflow: hidden;
-  }
-  .navbar div {
-    flex: 1;
+}
+.navbar div {
+    flex: 1;    
     padding: 14px 20px;
     text-align: center;
     color: white;
     cursor: pointer;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
-  }
-  .navbar div:hover,
-  .navbar div.active {
+}
+.navbar div:hover,
+.navbar div.active {
     background-color: #555; /* Background color for hover and active state */
-  }
+}
+
+.centered-list {
+    list-style-type: none;      /* Remove bullet points */
+    padding: 0 100px;                 /* Remove default padding */
+    text-align: left;         /* Center the text */
+}
