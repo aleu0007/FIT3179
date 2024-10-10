@@ -59,5 +59,7 @@
             {"field": "diet_type", "type": "nominal", "title": "Diet Type"},
             {"field": "cost", "type": "quantitative", "title": "Meal Cost", "format": "$.2f"}
         ]
-    }
+    },
+    "width": 300,
+    "height": 300
 }
