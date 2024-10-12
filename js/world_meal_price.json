@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "values": [
+        {"Food Group": "Starchy Staples", "Cost": 0.51},
+        {"Food Group": "Fruits", "Cost": 0.66},
+        {"Food Group": "Vegetables", "Cost": 0.79},
+        {"Food Group": "Oils and Fats", "Cost": 0.13},
+        {"Food Group": "Legumes, Nuts, Seeds", "Cost": 0.35},
+        {"Food Group": "Animal-Source Foods", "Cost": 0.87}
+      ]
+    },
+    "width": 400,
+    "encoding": {
+        "y": {
+            "field": "Food Group", 
+            "type": "nominal",
+            "axis": {
+                "title": null  
+            }
+        },
+        "x": {
+            "field": "Cost", 
+            "type": "quantitative", 
+            "title":"Cost ($PPP)", 
+            "axis": {
+                "tickCount": 4
+                },
+            "scale": {"domain": [0, 1]}},
+        "color": {
+            "field": "Food Group", 
+            "type": "nominal",
+            "title": "Food Group",
+            "scale"  : { 
+                "domain"  : [ 
+                    "Starchy Staples"  , 
+                    "Fruits"  , 
+                    "Vegetables" ,
+                    "Oils and Fats" ,
+                    "Legumes, Nuts, Seeds" ,
+                    "Animal-Source Foods" 
+                ], 
+                    "range"  : [ 
+                    "#9c6b4e"  , 
+                    "#a463f2"  , 
+                    "#3ca951"  ,
+                    "#efb118"  , 
+                    "#fdd0a2"  , 
+                    "#ff725c" 
+                ]
+            }
+        }
+    },
+    "layer": [{
+        "mark": "bar"
+    }, {
+        "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 3
+        },
+        "encoding": {
+            "text": {"field": "Cost", "type": "quantitative", "format": "$.2f"}
+        }
+    }]
+}

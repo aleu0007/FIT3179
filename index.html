@@ -88,7 +88,10 @@
         </div>
       </div>
     </section>
-    
+  </section>
+
+  <section>
+    <div id="world_meal_price" class="idiom"></div>
   </section>
 
   <section class="section-container footer-container">
@@ -106,6 +109,11 @@
 
     var vg_2 = "js/scatter_colour.json";
     vegaEmbed('#scatter_colour', vg_2, {"actions": false}).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var vg_3 = "js/world_meal_price.json";
+    vegaEmbed('#world_meal_price', vg_3, {"actions": false}).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
