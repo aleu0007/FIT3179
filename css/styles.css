@@ -45,6 +45,10 @@ p {
     align-self: center;
 }
 
+a {
+    color:rgb(255, 247, 136)
+}
+
 .dynamic-content-title {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
@@ -83,6 +87,12 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #333;
+    color: white;
 }
 
 .overlay {
