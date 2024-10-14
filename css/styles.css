@@ -150,7 +150,7 @@ section {
 
 .left-list {
     list-style-type: none;      /* Remove bullet points */
-    padding: 0 100px;                 /* Remove default padding */
+    padding: 0 40px;                 /* Remove default padding */
     text-align: left;         /* Center the text */
 }
 
@@ -159,4 +159,10 @@ section {
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
+}
+
+.note {
+    font-family: 'Numans', sans-serif;
+    font-size: 15px;
+    color: white;
 }
