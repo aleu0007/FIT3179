@@ -6,6 +6,9 @@ function changeContent(section) {
       text: `Global average calculated using the cheapest starchy staple available multiplied
       by quantities needed for 2,330 calories a day. 
       <br> <br>
+      This type of diet is <strong> not suitable 
+      in the long term </strong> as without nutrients health and wellbeing will decline.
+      <br> <br>
       People who cannot afford energy sufficient meals are concentrated in <strong>low-income countries</strong>.`,
       chart: "js/scatter_energy_sufficient_price.json"
     },
@@ -15,7 +18,8 @@ function changeContent(section) {
       text: `Global average determined by adding together the most affordable selection of food items 
         that satisfy the energy and intake needs for 23 essential macro and micronutrients. 
         <br> <br>
-        In low-income countries, more than <strong>three quarters</strong> of the population cannot afford a nutrient adequate meal. <br>
+        In low-income countries, more than <strong>three quarters</strong> of the population cannot afford a nutrient adequate meal. 
+        <br> <br>
         In middle-income countries, more than <strong>half</strong> cannot afford it, but in high-income countries, only less than 1 percent cannot afford a nutrient adequate meal.`,
       chart: "js/scatter_nutrient_sufficient_price.json"
     },

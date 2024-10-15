@@ -31,7 +31,7 @@
     <section class="content-container" style="width: 80%; align-self: center;"> 
       <h2>Percentage of People who Cannot Afford a Healthy Meal</h2>
       <div id="choropleth_map" class="idiom"></div>
-      <p>Hover over countries for more information</p>
+      <p class="tip">Hover over countries for more information</p>
 
       <div style="display: flex; flex-direction: row; justify-content: flex-start;">
         <div class="content-container" style="width: 200px; height: 200px; padding: 30px 30px;">
@@ -63,10 +63,10 @@
         <div class="content-container">
           <h2>Affordability between Diet Types</h2>
           <div id="scatter_colour" class="idiom"></div>
-          <p>Click on legend to filter. Hover over points for more information</p>
+          <p class="tip">Click on legend to filter. Hover over points for more information</p>
         </div>
 
-        <div class="content-container">
+        <div class="content-container" style="padding: 0 20px;">
           <h2></h2>
           <p>The three main types of diets are:</p>
           <ul class="left-list">
@@ -88,21 +88,22 @@
       </div>
       
       <div class="dynamic-content-container">
-        <div id="dynamic-chart"></div>  
-        <div class="display: flex; align-items: flex-start;">
-          <div id="content-title" class="dynamic-content-title"></div>
-          <div id="content-cost" class="impact" style="margin: 0 40px;"></div>
-          <div id="content-text" class="dynamic-content-text"></div>
-        </div>
-      </div>
-      <div class="content-container">
-        <p><b>Interaction Tips</b></p>
-        <div style="margin: 0 40px;">
-          <ul class="left-list">
-            <li><p>Click on a tab to view the cost for each type of meal.</p></li>
-            <li><p>Click on drag on the scatterplot to filter.</p></li>
-            <li><p>Click on a bar to filter by Continent. Hold Shift and click for multi-select.</p></li>
-          </ul>
+        <div style="display: flex; flex-direction: row; align-items: flex-start;">
+          <div id="dynamic-chart"></div>  
+          <div class="display: flex; align-items: flex-start;">
+            <div id="content-title" class="dynamic-content-title"></div>
+            <div id="content-cost" class="impact" style="margin: 0 40px;"></div>
+            <div id="content-text" class="dynamic-content-text"></div>
+            <div class="content-container">
+              <div style="margin: 0 40px;">
+                <ul class="left-list">
+                  <li><p class="tip">Click on a tab to view the cost for each type of meal.</p></li>
+                  <li><p class="tip">Click on drag on the scatterplot to filter.</p></li>
+                  <li><p class="tip">Click on a bar to filter by Continent. Hold Shift and click for multi-select.</p></li>
+                </ul>
+              </div>
+            </div>        
+          </div>
         </div>
       </div>
     </section>
@@ -110,6 +111,7 @@
 
   <section>
     <div id="world_meal_price" class="idiom"></div>
+    <div id="barcode" class="idiom"></div>
   </section>
 
   <section class="section-container footer-container">

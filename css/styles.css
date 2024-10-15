@@ -176,6 +176,11 @@ section {
     color: white;
 }
 
+.tip {
+    font-family: 'Numans', sans-serif;
+    font-size: 15px;
+}
+
 .impact {
     font-family: 'Work Sans', sans-serif;
     font-size: 100px;
