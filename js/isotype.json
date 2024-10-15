@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "config": {"view": {"stroke": ""}},
-    "width": 1450,
+    "width": 800,
     "height": 100,
     "data": {
       "values": [
@@ -29,10 +29,6 @@
       "x": {"field": "id", "type": "ordinal", "axis": null},
       "y": {"value": 50},
       "text": {"field": "emoji", "type": "nominal"},
-      "size": {"value": 100},
-      "tooltip": [
-        {"field": "bowl", "type": "nominal", "title": "Bowl Status"},
-        {"field": "id", "type": "ordinal", "title": "Position"}
-      ]
+      "size": {"value": 70}
     }
   }

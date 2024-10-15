@@ -42,8 +42,8 @@
                     "Healthy" 
                 ], 
                     "range"  : [ 
-                    "#6b6ecf"  , 
-                    "#17becf"  , 
+                    "#3fa4eb"  , 
+                    "#fc6822"  , 
                     "#2ca02c" 
                 ]
             }

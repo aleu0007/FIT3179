@@ -28,11 +28,18 @@
   </section>
 
   <section class="content-container">
-    <section> 
+    <section class="content-container" style="width: 80%; align-self: center;"> 
       <h2>Percentage of People who Cannot Afford a Healthy Meal</h2>
       <div id="choropleth_map" class="idiom"></div>
       <p>Hover over countries for more information</p>
-      <div id="isotype"></div>
+
+      <div style="display: flex; flex-direction: row; justify-content: flex-start;">
+        <div class="content-container" style="width: 200px; height: 200px; padding: 30px 30px;">
+          <div class="impact">40%</div>
+          <p style="margin: 5px 0; width: 200px;">people worldwide cannot afford a healthy meal</p>
+        </div>
+        <div id="isotype" class="idiom"></div>
+      </div>
     </section>
 
     <section class="section-container meal-header-contianer overlay">
@@ -42,9 +49,8 @@
           A diet is considered affordable if it costs less than 52 percent of a household's income.
           While costs are not linked to a country's income, affordability strongly correlates with income levels, 
           becoming more attainable as income increases.
-        </p>
         <br>
-        <p class="white-p">
+        <br>
           The prices shown are the cheapest food items in each country that meet the standards of the three diets,
           adjusted for purchasing power parity to reflect local living costs.
         </p>

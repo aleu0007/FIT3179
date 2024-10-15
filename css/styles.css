@@ -166,3 +166,9 @@ section {
     font-size: 15px;
     color: white;
 }
+
+.impact {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100px;
+    align-self: center;
+}
