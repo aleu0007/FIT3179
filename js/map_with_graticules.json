@@ -60,7 +60,9 @@
           "type": "quantitative",
           "title": "Percentage",
           "scale": {
-            "scheme": "yelloworangered"
+            "type": "threshold",
+            "domain": [1, 10, 30, 50, 80],
+            "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15", "#67000d"]
           }
         },
         "tooltip": [

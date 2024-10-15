@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {"view": {"stroke": ""}},
+    "width": 1450,
+    "height": 100,
+    "data": {
+      "values": [
+        {"country": "World", "bowl": "empty"},
+        {"country": "World", "bowl": "empty"},
+        {"country": "World", "bowl": "empty"},
+        {"country": "World", "bowl": "empty"},
+        {"country": "World", "bowl": "full"},
+        {"country": "World", "bowl": "full"},
+        {"country": "World", "bowl": "full"},
+        {"country": "World", "bowl": "full"},
+        {"country": "World", "bowl": "full"},
+        {"country": "World", "bowl": "full"}
+      ]
+    },
+    "transform": [
+      {
+        "calculate": "{'empty': '🥣', 'full': '🍛'}[datum.bowl]",
+        "as": "emoji"
+      },
+      {"window": [{"op": "row_number", "as": "id"}]}
+    ],
+    "mark": {"type": "text", "baseline": "middle"},
+    "encoding": {
+      "x": {"field": "id", "type": "ordinal", "axis": null},
+      "y": {"value": 50},
+      "text": {"field": "emoji", "type": "nominal"},
+      "size": {"value": 100},
+      "tooltip": [
+        {"field": "bowl", "type": "nominal", "title": "Bowl Status"},
+        {"field": "id", "type": "ordinal", "title": "Position"}
+      ]
+    }
+  }
