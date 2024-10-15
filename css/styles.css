@@ -143,9 +143,18 @@ section {
     text-transform: uppercase;
     transition: background-color 0.3s ease;
 }
-.navbar div:hover,
-.navbar div.active {
-    background-color: #555; /* Background color for hover and active state */
+
+.navbar div:nth-child(1):hover,
+.navbar div:nth-child(1).active {
+    background-color: #3fa4eb; 
+}
+.navbar div:nth-child(2):hover,
+.navbar div:nth-child(2).active {
+    background-color: #fc6822; 
+}
+.navbar div:nth-child(3):hover,
+.navbar div:nth-child(3).active {
+    background-color: #2ca02c; 
 }
 
 .left-list {
