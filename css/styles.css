@@ -150,7 +150,7 @@ section {
 
 .left-list {
     list-style-type: none;      /* Remove bullet points */
-    padding: 0 40px;                 /* Remove default padding */
+    padding: 0 0px;                 /* Remove default padding */
     text-align: left;         /* Center the text */
 }
 
